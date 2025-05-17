@@ -6,10 +6,12 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                | Expected Behavior                                  |
+|---|-------------------------------------|----------------------------------------------------|
+| 1 | Launch app on Android 10+           | UI loads correctly and functions are accessible    |
+| 2 | Navigate through all features       | No layout breakage or crashes                      |
+| 3 | Test device features (camera, storage) | Works as expected with proper permissions        |
+
 
 
 **Post-conditions**:
