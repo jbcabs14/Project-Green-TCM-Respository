@@ -8,7 +8,7 @@
 
 | # | Step                            | Expected Behavior                                |
 |---|---------------------------------|--------------------------------------------------|
-| 1 | Tap the '+' icon to create event| 'Create Event' form opens                        |
+| 1 | Tap the Pencil icon at the bottom right to create event| 'Create Event' form opens                        |
 | 2 | Fill in title, description, time, date, location | Inputs are accepted and validated         |
 | 3 | (Optional) Tick 'Flag as hazardous' | Checkbox is marked                         |
 | 4 | Tap image field and select photo| Image preview is shown below                    |
