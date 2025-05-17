@@ -6,10 +6,13 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                               | Expected Behavior                             |
+| - | -------------------------------------------------- | --------------------------------------------- |
+| 1 | Complete sign-up with a new valid account.         | App prompts email verification.               |
+| 2 | Redirect to "Verify Your Email" screen.            | Success message and retry instructions shown. |
+| 3 | User closes and reopens the app without verifying. | App redirects back to "Verify Your Email".    |
+| 4 | After email is verified manually, relaunch app.    | User is now redirected to Main Dashboard.     |
+
 
 
 **Post-conditions**:
