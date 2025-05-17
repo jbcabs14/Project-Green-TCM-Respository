@@ -6,10 +6,12 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                | Expected Behavior                                       |
+|---|-------------------------------------|---------------------------------------------------------|
+| 1 | Go to Discover tab                  | List of events is shown                                |
+| 2 | Enter a location in search field    | Location-based suggestions appear                      |
+| 3 | Tap on a valid result               | Events near that location are displayed                |
+
 
 
 **Post-conditions**:
