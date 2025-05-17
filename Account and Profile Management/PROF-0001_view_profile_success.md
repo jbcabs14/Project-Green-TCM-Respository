@@ -6,10 +6,12 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                            | Expected Behavior                              |
+|---|---------------------------------|------------------------------------------------|
+| 1 | Tap on profile icon or menu     | Profile screen is displayed                    |
+| 2 | View profile details            | User sees full name, username, email, etc.     |
+| 3 | Navigate through tabs           | Events joined, hosted, saved are displayed     |
+
 
 
 **Post-conditions**:
