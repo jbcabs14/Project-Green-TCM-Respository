@@ -6,10 +6,13 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                     | Expected Behavior                                           |
+|---|------------------------------------------|-------------------------------------------------------------|
+| 1 | Open login screen                        | Login form is displayed                                    |
+| 2 | Enter `' OR 1=1 --` in email or password | Input accepted                                              |
+| 3 | Tap 'Sign In'                            | Authentication fails, error message shown                  |
+| 4 | Attempt fails to access main dashboard   | Access is denied; user remains on login screen             |
+
 
 
 **Post-conditions**:
