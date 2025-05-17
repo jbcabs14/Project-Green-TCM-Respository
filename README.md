@@ -7,7 +7,7 @@ All test cases follow a standardized format for easy tracking and review.
 ---
 
 
-## Account Creation and Authentication
+## [Account Creation and Authentication](https://github.com/jbcabs14/Project-Green-TCM-Respository/tree/main/Account%20Authentication%20)
 
 - [Login - Valid Credentials](https://github.com/jbcabs14/Project-Green-TCM-Respository/blob/main/Account%20Creation%20and%20Authentication/AUTH-0001_login_valid_credentials.md)
 - [Login - Invalid Credentials](https://github.com/jbcabs14/Project-Green-TCM-Respository/blob/main/Account%20Creation%20and%20Authentication/AUTH-0002_login_invalid_credentials.md)
