@@ -6,10 +6,14 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                              | Expected Behavior                                       |
+| - | ------------------------------------------------- | ------------------------------------------------------- |
+| 1 | Go to the Sign-Up screen.                         | Sign-Up form appears.                                   |
+| 2 | Enter an email that already exists in the system. | Email input is accepted.                                |
+| 3 | Fill in other valid fields and submit.            | Attempt to create account is initiated.                 |
+| 4 | Tap the "Create My Account" button.               | Error message like **“Email already in use”** is shown. |
+| 5 | Stay on the Sign-Up screen.                       | User is not redirected. Form remains visible.           |
+
 
 
 **Post-conditions**:
