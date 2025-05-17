@@ -6,10 +6,12 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                              | Expected Behavior                                   |
+|---|-----------------------------------|-----------------------------------------------------|
+| 1 | Launch app on iOS 14+             | App boots and displays UI properly                  |
+| 2 | Check gestures, UI responsiveness | Native behaviors like swipes and modals work        |
+| 3 | Test push notifications and input | Functional and correctly styled on iOS              |
+
 
 
 **Post-conditions**:
