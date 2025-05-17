@@ -6,10 +6,13 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                          | Expected Behavior                          |
+|---|-------------------------------|--------------------------------------------|
+| 1 | Open Create Event form        | Form is displayed with empty fields        |
+| 2 | Fill in all fields with valid data | All inputs accepted without errors     |
+| 3 | Tap 'Create Event'            | Event is saved and success message appears |
+| 4 | Redirect to event list/detail | Event appears in dashboard or listing      |
+
 
 
 **Post-conditions**:
