@@ -6,10 +6,14 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                 | Expected Behavior                            |
+|---|--------------------------------------|----------------------------------------------|
+| 1 | Go to profile page                   | Profile is displayed                         |
+| 2 | Tap 'Edit Profile'                   | Fields become editable                       |
+| 3 | Enter invalid values (e.g., symbols in name or empty email) | Validation errors shown        |
+| 4 | Tap 'Save Changes'                   | Save is blocked; error messages remain       |
+| 5 | Correct input and retry              | Profile saves only after valid correction    |
+
 
 
 **Post-conditions**:
