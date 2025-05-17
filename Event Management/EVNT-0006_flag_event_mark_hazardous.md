@@ -6,10 +6,13 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                         | Expected Behavior                             |
+|---|------------------------------|-----------------------------------------------|
+| 1 | Tap '+' to open event form   | Form loads with all fields visible            |
+| 2 | Tap upload image box         | Gallery or camera opens                       |
+| 3 | Select an image              | Image preview is shown                        |
+| 4 | Submit form                  | Event is posted with the image                |
+
 
 
 **Post-conditions**:
