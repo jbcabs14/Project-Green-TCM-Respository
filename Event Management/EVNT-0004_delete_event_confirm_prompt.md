@@ -6,12 +6,12 @@
 
 **Scenario 1**
 
-| # | Step                        | Expected Behavior                              |
-|---|-----------------------------|------------------------------------------------|
-| 1 | Open an event hosted by user| Event detail is shown                          |
-| 2 | Tap 'Delete' (if available) | Confirmation dialog appears                    |
-| 3 | Confirm deletion            | Event is removed from system                   |
-| 4 | Redirect to event list      | Deleted event no longer visible                |
+| # | Step                     | Expected Behavior                              |
+|---|--------------------------|------------------------------------------------|
+| 1 | Tap an event to view     | Event detail is displayed                      |
+| 2 | Tap 'Join' button        | Button changes to 'Joined'                    |
+| 3 | Open profile/joined events | Joined event appears in the list             |
+
 
 
 
