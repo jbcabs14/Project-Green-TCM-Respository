@@ -1,5 +1,5 @@
-## Test Case ID: PROF-0001_view_profile_success
-### Title: View Profile Successfully
+## Test Case ID: AUTH-0001_login_valid_credentials
+### Title: Successful Login with Valid Credentials
 - **Pre-condition**: User must be on the relevant screen with required setup.
 - **Test Steps**:
   1. Describe the action step here.
