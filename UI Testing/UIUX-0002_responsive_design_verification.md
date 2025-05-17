@@ -6,10 +6,12 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                  | Expected Behavior                                   |
+|---|---------------------------------------|-----------------------------------------------------|
+| 1 | Open app on small screen (e.g. phone) | Layout fits and scrolls smoothly                   |
+| 2 | Rotate to landscape                   | UI adjusts without overlapping or cutoff elements  |
+| 3 | Test on tablet or emulator            | Grid/list views scale appropriately                |
+
 
 
 **Post-conditions**:
