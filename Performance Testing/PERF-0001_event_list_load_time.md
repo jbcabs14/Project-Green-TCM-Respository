@@ -6,10 +6,12 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                               | Expected Behavior                                   |
+|---|------------------------------------|-----------------------------------------------------|
+| 1 | Launch the application             | Dashboard and event list start to load              |
+| 2 | Wait for the event list to appear  | Event list loads in under 2 seconds (ideal target)  |
+| 3 | Scroll through loaded events       | Scrolling remains smooth and responsive             |
+
 
 
 **Post-conditions**:
