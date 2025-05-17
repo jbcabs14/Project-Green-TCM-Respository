@@ -1,5 +1,5 @@
-## Test Case ID: CHAT-0001_send_message_to_organizer
-### Title: Send Message to Organizer
+## Test Case ID: CHAT-0002_receive_group_message
+### Title: Receive Group Message
 **Summary**: Verify functionality works as expected.
 
 **Preconditions**: Relevant precondition setup is completed.
