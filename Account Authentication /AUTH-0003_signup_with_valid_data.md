@@ -20,9 +20,13 @@
 | 10 |  | Expected behavior 1. |
 
 **Scenario 2**
+| # | Step | Expected Behavior |
+|---|------|--------------------|
 | 1 |  Click Google Icon| Expected behavior 1. |
 
 **Scenario 3**
+| # | Step | Expected Behavior |
+|---|------|--------------------|
 | 1 | Press Log in| Expected behavior 1. |
 
 **Post-conditions**:
