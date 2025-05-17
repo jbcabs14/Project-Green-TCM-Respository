@@ -8,26 +8,13 @@
 
 | # | Step | Expected Behavior |
 |---|------|--------------------|
-| 1 | Enter First Name | Expected behavior 1. |
-| 2 | Enter Last Name | Expected behavior 2. |
-| 3 | Enter Username| Expected behavior 1. |
-| 4 | Enter Email| Expected behavior 1. |
-| 5 | Enter Mobile Number| Expected behavior 1. |
-| 6 | Enter Password | Expected behavior 1. |
-| 7 | Confirm Password| Expected behavior 1. |
-| 8 | Agree Pto Privacy Policy and Terms of Services | Expected behavior 1. |
-| 9 | Press Create My Account| Expected behavior 1. |
-| 10 |  | Expected behavior 1. |
+| 1 | Launch the app and go to the Sign-Up screen.| Sign-Up form is displayed.|
+| 2 | Fill in valid first name, last name, username, email, mobile number, password, confirm password.| Each field shows valid input and no validation errors appear. |
+| 3 | 	Check the privacy policy checkbox.| 	Checkbox is marked successfully. |
+| 4 | Tap the "Create My Account" button.| Expected behavior 1. |
+| 5 | Enter Mobile Number| App shows loading spinner or transitions.|
+| 6 | 	Redirect to email verification page. | Email verification instructions are displayed. |
 
-**Scenario 2**
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 |  Click Google Icon| Expected behavior 1. |
-
-**Scenario 3**
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Press Log in| Expected behavior 1. |
 
 **Post-conditions**:
 - Feature performs the expected action.
