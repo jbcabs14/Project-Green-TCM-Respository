@@ -6,12 +6,14 @@
 
 **Scenario 1**
 
-| # | Step                          | Expected Behavior                          |
-|---|-------------------------------|--------------------------------------------|
-| 1 | Open Create Event form        | Form is displayed with empty fields        |
-| 2 | Fill in all fields with valid data | All inputs accepted without errors     |
-| 3 | Tap 'Create Event'            | Event is saved and success message appears |
-| 4 | Redirect to event list/detail | Event appears in dashboard or listing      |
+| # | Step                            | Expected Behavior                                |
+|---|---------------------------------|--------------------------------------------------|
+| 1 | Tap the '+' icon to create event| 'Create Event' form opens                        |
+| 2 | Fill in title, description, time, date, location | Inputs are accepted and validated         |
+| 3 | (Optional) Tick 'Flag as hazardous' | Checkbox is marked                         |
+| 4 | Tap image field and select photo| Image preview is shown below                    |
+| 5 | Tap 'Post'                      | Event is created, success message appears        |
+| 6 | Redirect to event list or detail | Event is visible in feed                        |
 
 
 
