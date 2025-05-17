@@ -6,10 +6,13 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                 | Expected Behavior                                  |
+|---|--------------------------------------|----------------------------------------------------|
+| 1 | User joins an event                  | Event join is confirmed                            |
+| 2 | Organizer posts an update            | Push notification is triggered                     |
+| 3 | User receives system notification    | Alert is shown with event info and timestamp       |
+| 4 | Tap on notification                  | Redirects user to updated event detail             |
+
 
 
 **Post-conditions**:
