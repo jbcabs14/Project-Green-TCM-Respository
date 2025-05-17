@@ -6,10 +6,13 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                     | Expected Behavior                          |
+|---|--------------------------|--------------------------------------------|
+| 1 | Open an existing event   | Event detail is shown                      |
+| 2 | Tap edit option (if UI allows) | Edit form with prefilled fields appears |
+| 3 | Change event title       | Title input is editable                    |
+| 4 | Tap 'Save/Update'        | Event title is updated and saved           |
+| 5 | View event detail        | New title is displayed                     |
 
 
 **Post-conditions**:
