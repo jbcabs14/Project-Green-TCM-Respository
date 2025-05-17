@@ -6,10 +6,13 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                        | Expected Behavior                              |
+|---|-----------------------------|------------------------------------------------|
+| 1 | Open an event hosted by user| Event detail is shown                          |
+| 2 | Tap 'Delete' (if available) | Confirmation dialog appears                    |
+| 3 | Confirm deletion            | Event is removed from system                   |
+| 4 | Redirect to event list      | Deleted event no longer visible                |
+
 
 
 **Post-conditions**:
