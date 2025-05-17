@@ -6,10 +6,13 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                | Expected Behavior                                 |
+|---|-------------------------------------|---------------------------------------------------|
+| 1 | Tap on 'Message' from organizer card| Opens private chat screen                        |
+| 2 | Type message in input field         | Text is accepted and displayed in preview        |
+| 3 | Press 'Send'                        | Message appears in chat window and is delivered  |
+| 4 | Open organizer’s inbox              | Message appears in organizer’s chat list         |
+
 
 
 **Post-conditions**:
