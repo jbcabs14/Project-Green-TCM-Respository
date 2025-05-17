@@ -6,10 +6,14 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                         | Expected Behavior                                 |
+|---|------------------------------|---------------------------------------------------|
+| 1 | Tap on an event post         | Event detail view with image and description     |
+| 2 | Scroll to comments section   | Text box and comment list are shown              |
+| 3 | Type in a comment            | Input is registered                              |
+| 4 | Tap the send icon            | Comment appears in the comment list immediately  |
+
+
 
 
 **Post-conditions**:
