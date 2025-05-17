@@ -6,10 +6,12 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                | Expected Behavior                                        |
+|---|-------------------------------------|----------------------------------------------------------|
+| 1 | Go to Home/Dashboard after login    | Recommended events section is visible                   |
+| 2 | Scroll through recommendations      | Personalized list based on joined/saved events          |
+| 3 | Tap a recommended event             | Opens the event detail page                             |
+
 
 
 **Post-conditions**:
