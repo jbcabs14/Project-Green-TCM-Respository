@@ -6,10 +6,11 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                              | Expected Behavior                                 |
+|---|-----------------------------------|---------------------------------------------------|
+| 1 | User is part of a group event chat| Group chat screen is accessible                   |
+| 2 | Another member sends a message     | Message appears in real-time                     |
+| 3 | User reopens the app              | Message history including unread ones are loaded |
 
 
 **Post-conditions**:
