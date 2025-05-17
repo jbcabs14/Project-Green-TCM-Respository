@@ -6,10 +6,11 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                  | Expected Behavior                                   |
+|---|---------------------------------------|-----------------------------------------------------|
+| 1 | Event is scheduled within 24 hours    | Reminder logic is triggered                         |
+| 2 | System sends push notification        | Reminder with event name, date, and time is shown   |
+| 3 | Tap on notification                   | Redirects to the upcoming event's detail screen     |
 
 
 **Post-conditions**:
