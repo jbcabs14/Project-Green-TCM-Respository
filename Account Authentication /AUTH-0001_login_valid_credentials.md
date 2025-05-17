@@ -11,7 +11,7 @@
 | 1 | Launch the application. | Verify that the login screen is displayed. |
 | 2 | Enter valid email (e.g. user@example.com). | Verify that the email field is populated. |
 | 3 | Enter valid password. | Verify that the password field is populated. |
-| 4 | Tap the 'Sign In' button. | Verify that the user is redirected to the Main Dashboard. |
+| 4 | Tap the 'Log in' button. | Verify that the user is redirected to the Main Dashboard. |
 
 
 **Post-conditions**:
