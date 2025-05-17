@@ -6,10 +6,12 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                   | Expected Behavior                                        |
+|---|----------------------------------------|----------------------------------------------------------|
+| 1 | Go to Discover tab                     | Search UI is available                                  |
+| 2 | Select a category (e.g., Coastal Cleanups) | Filter is applied                                    |
+| 3 | Browse filtered list                   | Only events from that category are shown                |
+
 
 
 **Post-conditions**:
