@@ -6,10 +6,11 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                                      | Expected Behavior                                            |
+|---|-------------------------------------------|--------------------------------------------------------------|
+| 1 | Attempt direct URL navigation to dashboard | Unauthorized users are redirected to login                  |
+| 2 | Bypass localStorage/Token manually         | App detects invalid session                                 |
+| 3 | Check local state and UI post-attempt      | User is not allowed to access protected routes              |
 
 
 **Post-conditions**:
