@@ -6,10 +6,14 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                             | Expected Behavior                             |
+|---|----------------------------------|-----------------------------------------------|
+| 1 | Go to profile page               | Profile info is loaded                        |
+| 2 | Tap 'Edit Profile' button        | Editable fields become visible                |
+| 3 | Update valid data (name, phone)  | Inputs accepted without error                 |
+| 4 | Tap 'Save Changes'               | Success message appears; data is saved        |
+| 5 | Reopen profile                   | Updated info is correctly shown               |
+
 
 
 **Post-conditions**:
