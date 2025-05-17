@@ -6,10 +6,14 @@
 
 **Scenario 1**
 
-| # | Step | Expected Behavior |
-|---|------|--------------------|
-| 1 | Step 1 | Expected behavior 1. |
-| 2 | Step 2 | Expected behavior 2. |
+| # | Step                          | Expected Behavior                              |
+|---|-------------------------------|------------------------------------------------|
+| 1 | Open Create Event form        | Form appears normally                          |
+| 2 | Tick 'Flag as hazardous'      | Checkbox becomes checked                       |
+| 3 | Fill other required fields    | All inputs accepted                            |
+| 4 | Tap 'Post'                    | Event is saved with hazard metadata            |
+| 5 | View event in list/detail     | Hazard icon/indicator is shown if applicable   |
+
 
 
 **Post-conditions**:
